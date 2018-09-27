@@ -1,4 +1,4 @@
-package com.taranovski.leetcode.solutions.leetcode0003;
+package com.taranovski.leetcode.solutions.medium.leetcode0003;
 
 /**
  * Created by Alyx on 26.09.2018.
