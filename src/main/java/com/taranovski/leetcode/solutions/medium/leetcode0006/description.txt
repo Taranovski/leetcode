@@ -23,3 +23,7 @@ P     I    N
 A   L S  I G
 Y A   H R
 P     I
+
+complexity:
+time complexity in O(n)
+space complexity is O(n)
