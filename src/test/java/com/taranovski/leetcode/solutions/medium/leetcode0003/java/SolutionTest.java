@@ -1,4 +1,4 @@
-package com.taranovski.leetcode.solutions.easy.leetcode0007;
+package com.taranovski.leetcode.solutions.medium.leetcode0003.java;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,35 +7,32 @@ import org.junit.runners.Parameterized;
 import static org.junit.Assert.*;
 
 /**
- * Created by Alyx on 29.09.2018.
+ * Created by Alyx on 27.09.2018.
  */
 @RunWith(Parameterized.class)
 public class SolutionTest {
 
-    private int input;
+    private String input;
     private int output;
 
-    public SolutionTest(int input, int output) {
+    public SolutionTest(String input, int output) {
         this.input = input;
         this.output = output;
     }
 
     @Parameterized.Parameters
     public static Object[][] params() {
-        return new Object[][]{
-                {123, 321},
-                {1230, 321},
-                {-123, -321},
-                {0, 0},
-                {-2147483648, 0},
-        };
+            return new Object[][]{
+                    {"abc", 3},
+                    {"aabaab!bb", 3},
+            };
     }
 
     private Solution solution = new Solution();
 
     @Test
     public void shouldReturnTheRightAnswerForAGivenSequence(){
-        final int lengthOfLongestSubstring = solution.reverse(input);
+        final int lengthOfLongestSubstring = solution.lengthOfLongestSubstring(input);
 
         assertEquals(output, lengthOfLongestSubstring);
     }

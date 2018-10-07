@@ -1,4 +1,4 @@
-package com.taranovski.leetcode.solutions.easy.leetcode0007;
+package com.taranovski.leetcode.solutions.easy.leetcode0007.java;
 
 /**
  * Created by Alyx on 29.09.2018.

@@ -1,4 +1,4 @@
-package com.taranovski.leetcode.solutions.medium.leetcode0006;
+package com.taranovski.leetcode.solutions.medium.leetcode0006.java;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

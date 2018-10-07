@@ -1,4 +1,4 @@
-package com.taranovski.leetcode.solutions.medium.leetcode0916;
+package com.taranovski.leetcode.solutions.medium.leetcode0916.java;
 
 import java.util.ArrayList;
 import java.util.HashMap;
